@@ -110,12 +110,7 @@ class SentryMailer(NotificationPlugin):
         Returns a list of email addresses for the users that should be
         notified of alerts.
         """
-        send_to_list = []
-
-        for email in self.get_option('emails', project):
-            send_to_list.append(email)
-
-        return send_to_list
+        return self.get_option('emails', project) or []
 
     def notify(self, notification):
         event = notification.event
