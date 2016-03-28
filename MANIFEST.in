@@ -1,0 +1,3 @@
+include README.md setup.py MANIFEST.in
+recursive-include sentry-event-router *
+global-exclude *~

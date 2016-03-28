@@ -1,6 +1,7 @@
-from setuptools import setup
+#!/usr/bin/env python
+from setuptools import setup, find_packages
 
-install_requires = ['django==1.6', 'django-multi-email-field', 'sentry']
+install_requires = ['django', 'django-multi-email-field', 'sentry']
 
 setup(
     name='sentry-mailer',
@@ -18,5 +19,6 @@ setup(
             'mailer = sentry_mailer'
         ],
     },
+    packages=find_packages(),
 )
 
