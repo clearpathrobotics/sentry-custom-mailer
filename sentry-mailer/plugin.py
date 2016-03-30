@@ -20,7 +20,7 @@ from sentry.utils.http import absolute_uri
 from django import forms
 from multi_email_field.forms import MultiEmailField, MultiEmailWidget
 
-from sentry.plugins import sentry_mailer
+import sentry_mailer
 
 NOTSET = object()
 
