@@ -1,10 +1,8 @@
-"""
-sentry.plugins.sentry_mailer
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Proprietary copyright: Clearpath Robotics, Confidential
+#
+# @author    Kieran Broekhoven <kbroekhoven@clearpathrobotics.com>
+# @copyright (c) 2016, Clearpath Robotics, Inc., All rights reserved.
 
-:copyright: (c) 2010-2014 by the Sentry Team, see AUTHORS for more details.
-:license: BSD, see LICENSE for more details.
-"""
 from __future__ import absolute_import
 
 try: 
