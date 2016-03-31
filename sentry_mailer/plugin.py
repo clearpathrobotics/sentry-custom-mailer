@@ -1,10 +1,9 @@
-"""
-sentry.plugins.sentry_mail.models
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Proprietary copyright: Clearpath Robotics, Confidential
+#
+# @author    Kieran Broekhoven <kbroekhoven@clearpathrobotics.com>
+# @copyright (c) 2016, Clearpath Robotics, Inc., All rights reserved.
 
-:copyright: (c) 2010-2014 by the Sentry Team, see AUTHORS for more details.
-:license: BSD, see LICENSE for more details.
-"""
+#!/usr/bin/python
 from __future__ import absolute_import
 
 import logging
@@ -39,7 +38,7 @@ class SentryMailer(NotificationPlugin):
     version = sentry_mailer.VERSION
 
     author = "Kieran Broekhoven"
-    author_url = ""
+    author_url = "https://bitbucket.org/clearpathrobotics/sentry-mailer"
 
     project_default_enabled = True
     project_conf_form = AddEmailForm
