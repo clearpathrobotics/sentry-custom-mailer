@@ -11,7 +11,6 @@ from django.conf import settings
 from django.core.urlresolvers import reverse
 from django.utils.encoding import force_text
 from django.utils.safestring import mark_safe
-from sentry.plugins import register
 from sentry.plugins.bases.notify import NotificationPlugin
 from sentry.utils.email import MessageBuilder, group_id_to_email
 from sentry.utils.http import absolute_uri
@@ -180,4 +179,3 @@ class SentryMailer(NotificationPlugin):
 # Legacy compatibility
 MailProcessor = SentryMailer
 
-register(SentryMailer)
