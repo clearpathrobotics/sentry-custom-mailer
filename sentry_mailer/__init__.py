@@ -3,7 +3,6 @@
 # @author    Kieran Broekhoven <kbroekhoven@clearpathrobotics.com>
 # @copyright (c) 2016, Clearpath Robotics, Inc., All rights reserved.
 
-#!/usr/bin/python
 from __future__ import absolute_import
 
 try: 
