@@ -4,8 +4,8 @@ from setuptools import setup, find_packages
 install_requires = ['django', 'django-multi-email-field', 'sentry']
 
 setup(
-    name='sentry-mailer',
-    version='1.0.1',
+    name='sentry-custom-mailer',
+    version='1.0.2',
     author="Kieran Broekhoven",
     author_email="kbroekhoven@clearpathrobotics.com",
     description="A sentry plugin to specify recipients of notification emails",
@@ -13,10 +13,10 @@ setup(
     install_requires=install_requires,
     entry_points={
         'sentry.plugins': [
-            'mailer = sentry_mailer.plugin:SentryMailer'
+            'custom_mailer = sentry_custom_mailer.plugin:CustomMailerPlugin'
         ],
         'sentry.apps': [
-            'mailer = sentry_mailer'
+            'custom_mailer = sentry_custom_mailer'
         ],
     },
     packages=find_packages(),

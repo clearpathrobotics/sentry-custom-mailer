@@ -1,3 +1,5 @@
 Version 1.0.0: Initial Release
 Version 1.0.1: Removed register call in plugin.py to avoid duplicate plugin in
     sentry admin interface
+Version 1.0.2: Renamed from Sentry Mailer to Sentry Custom Mailer, changed from 
+    copying Sentry Mail to inheriting it, cleaning up and licensing
