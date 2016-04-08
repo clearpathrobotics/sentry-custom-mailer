@@ -31,7 +31,7 @@ class AddEmailForm(forms.Form):
 
 class CustomMailerPlugin(MailPlugin):
     """
-    Class object for a Sentry plugin that allows a user to specify recipients
+    Class for a Sentry plugin that allows a user to specify recipients
     of a project's notification emails.
     """
     title = "Custom Mailer"
