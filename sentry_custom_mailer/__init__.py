@@ -1,8 +1,3 @@
-# Proprietary copyright: Clearpath Robotics, Confidential
-#
-# @author    Kieran Broekhoven <kbroekhoven@clearpathrobotics.com>
-# @copyright (c) 2016, Clearpath Robotics, Inc., All rights reserved.
-
 from __future__ import absolute_import
 
 try: 

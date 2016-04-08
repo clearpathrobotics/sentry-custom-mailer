@@ -1,8 +1,11 @@
-# Proprietary copyright: Clearpath Robotics, Confidential
-#
-# @author    Kieran Broekhoven <kbroekhoven@clearpathrobotics.com>
-# @copyright (c) 2016, Clearpath Robotics, Inc., All rights reserved.
+"""
+sentry_custom_mailer.plugin
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+:author: Kieran Broekhoven <kbroekhoven@clearpathrobotics.com>
+:copyright: (c) 2016, Clearpath, All rights reserved.
+:license: BSD, see LICENSE for details
+"""
 from __future__ import absolute_import
 
 import logging
