@@ -6,10 +6,10 @@ This plugin does not affect Sentry Mail; users will still receive notifications 
 ## Installation
 The plugin will be enabled by default upon installation and resetting Sentry, and will just require configuration. 
 
-From pip:
-    pip install sentry-custom-mailer
-From source:
-    python setup.py install
+From pip:  
+`pip install sentry-custom-mailer`  
+From source:  
+`python setup.py install`  
 
 ## Configuration
 In Sentry project settings, go to the configuration settings for "Custom Mailer" and enter all email addresses that should receive notifications for that project. 
