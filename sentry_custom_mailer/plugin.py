@@ -44,7 +44,7 @@ class CustomMailerPlugin(MailPlugin):
     version = sentry_custom_mailer.VERSION
 
     author = "Kieran Broekhoven"
-    author_url = "https://bitbucket.org/clearpathrobotics/sentry-custom-mailer"
+    author_url = "https://github.com/clearpathrobotics/sentry-custom-mailer"
 
     project_default_enabled = True
     project_conf_form = AddEmailForm
