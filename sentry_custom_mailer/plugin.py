@@ -90,5 +90,5 @@ class CustomMailerPlugin(MailPlugin):
         return msg
 
 # Legacy compatibility
-MailProcessor = SentryMailer
+MailProcessor = CustomMailerPlugin
 

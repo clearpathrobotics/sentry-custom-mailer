@@ -5,7 +5,7 @@ install_requires = ['django', 'django-multi-email-field', 'sentry']
 
 setup(
     name='sentry-custom-mailer',
-    version='1.0.2',
+    version='1.0.3',
     author="Kieran Broekhoven",
     author_email="kbroekhoven@clearpathrobotics.com",
     description="A sentry plugin to specify recipients of notification emails",
